@@ -1,0 +1,12 @@
+{
+  "name": "Hiệp Phước Premia",
+  "short_name": "HP Premia",
+  "start_url": "/?utm_source=pwa&utm_medium=homescreen",
+  "display": "browser",
+  "background_color": "#062b2e",
+  "theme_color": "#062b2e",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

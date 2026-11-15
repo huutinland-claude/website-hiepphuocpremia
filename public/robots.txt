@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+Disallow: /cam-on
+
+Sitemap: __SITE_URL__/sitemap.xml

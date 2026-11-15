@@ -1,0 +1,228 @@
+{
+ "hero-a": {
+  "w": 4107,
+  "h": 2933,
+  "widths": [
+   828,
+   1280,
+   1920
+  ]
+ },
+ "hero-b": {
+  "w": 4928,
+  "h": 1701,
+  "widths": [
+   828,
+   1280,
+   1920
+  ]
+ },
+ "masterplan": {
+  "w": 5867,
+  "h": 2934,
+  "widths": [
+   1000,
+   1800
+  ]
+ },
+ "location-map": {
+  "w": 5867,
+  "h": 2934,
+  "widths": [
+   1000,
+   1800
+  ]
+ },
+ "location-depot": {
+  "w": 5867,
+  "h": 2934,
+  "widths": [
+   1000,
+   1600
+  ]
+ },
+ "product-lienke": {
+  "w": 4048,
+  "h": 2142,
+  "widths": [
+   640,
+   1100
+  ]
+ },
+ "product-thuongmai": {
+  "w": 4048,
+  "h": 2142,
+  "widths": [
+   640,
+   1100
+  ]
+ },
+ "product-bietthu": {
+  "w": 4048,
+  "h": 2142,
+  "widths": [
+   640,
+   1100
+  ]
+ },
+ "legal-docs": {
+  "w": 5867,
+  "h": 2934,
+  "widths": [
+   900,
+   1500
+  ]
+ },
+ "progress-1": {
+  "w": 5867,
+  "h": 2934,
+  "widths": [
+   900,
+   1500
+  ]
+ },
+ "progress-2": {
+  "w": 5867,
+  "h": 2934,
+  "widths": [
+   900,
+   1500
+  ]
+ },
+ "progress-3": {
+  "w": 5867,
+  "h": 2934,
+  "widths": [
+   900,
+   1500
+  ]
+ },
+ "amenity-aloha-bay": {
+  "w": 2773,
+  "h": 1848,
+  "widths": [
+   480,
+   900
+  ]
+ },
+ "amenity-mana-bay": {
+  "w": 2773,
+  "h": 1848,
+  "widths": [
+   480,
+   900
+  ]
+ },
+ "amenity-kona-camp": {
+  "w": 2773,
+  "h": 1848,
+  "widths": [
+   480,
+   900
+  ]
+ },
+ "amenity-active-hub": {
+  "w": 2773,
+  "h": 1848,
+  "widths": [
+   480,
+   900
+  ]
+ },
+ "amenity-ho-tao-song": {
+  "w": 3433,
+  "h": 2289,
+  "widths": [
+   480,
+   900
+  ]
+ },
+ "amenity-san-khau-aloha": {
+  "w": 3433,
+  "h": 2289,
+  "widths": [
+   480,
+   900
+  ]
+ },
+ "amenity-palm-court": {
+  "w": 3433,
+  "h": 2289,
+  "widths": [
+   480,
+   900
+  ]
+ },
+ "amenity-premia-mall": {
+  "w": 3433,
+  "h": 2289,
+  "widths": [
+   480,
+   900
+  ]
+ },
+ "amenity-plumeria-square": {
+  "w": 3433,
+  "h": 2289,
+  "widths": [
+   480,
+   900
+  ]
+ },
+ "amenity-clubhouse": {
+  "w": 3411,
+  "h": 2285,
+  "widths": [
+   480,
+   900
+  ]
+ },
+ "amenity-pickleball": {
+  "w": 3433,
+  "h": 2289,
+  "widths": [
+   480,
+   900
+  ]
+ },
+ "amenity-truong-tieu-hoc": {
+  "w": 3433,
+  "h": 2289,
+  "widths": [
+   480,
+   900
+  ]
+ },
+ "amenity-health-center": {
+  "w": 3433,
+  "h": 2289,
+  "widths": [
+   480,
+   900
+  ]
+ },
+ "amenity-cau-tinh-yeu": {
+  "w": 3433,
+  "h": 2289,
+  "widths": [
+   480,
+   900
+  ]
+ },
+ "amenity-go-kart": {
+  "w": 3433,
+  "h": 2289,
+  "widths": [
+   480,
+   900
+  ]
+ },
+ "amenity-san-bong-da": {
+  "w": 3433,
+  "h": 2289,
+  "widths": [
+   480,
+   900
+  ]
+ }
+}
