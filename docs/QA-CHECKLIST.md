@@ -27,7 +27,8 @@ Ký hiệu: **[x]** đã kiểm thử thực tế trong môi trường local (15
 ## Cần kiểm thử trên môi trường thật
 
 - [ ] Tablet (768–1024px) trên thiết bị thật; Safari iOS, trình duyệt trong app Facebook/Zalo/TikTok
-- [ ] Deploy Vercel + Postgres thật: `GET /api/health` trả `"db":"postgres"`, gửi form, lead xuất hiện trong Dashboard
+- [x] Deploy Vercel + Neon Postgres (15/11/2026, https://website-hiepphuocpremia.vercel.app): `/api/health` trả `"db":"postgres"`; gửi form desktop + mobile → chuyển `/cam-on`; robots/sitemap/canonical đúng tên miền; trang 404 đúng
+- [ ] Đăng nhập `/admin` trên production, thấy 2 lead "TEST Claude…" (đánh dấu Lost sau khi kiểm tra); xóa `ADMIN_EMAIL`/`ADMIN_PASSWORD` khỏi env Vercel
 - [ ] Meta Pixel: Pixel Helper thấy PageView/ViewContent/Contact; Test Events thấy Lead/CompleteRegistration/Schedule từ Browser **và** Server, trạng thái Deduplicated
 - [ ] Meta CAPI: cột "Meta CAPI" trong lead = `ok:1`; Event Match Quality ≥ 6
 - [ ] GA4: DebugView thấy `page_view`, `cta_click`, `form_start`, `generate_lead`; đánh dấu Key event
