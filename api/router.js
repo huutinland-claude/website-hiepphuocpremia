@@ -1,5 +1,5 @@
 // Single serverless entry point for every /api/* route (Vercel rewrites /api/:path* -> /api/router?__path=:path*).
-// The local dev server (server.mjs) calls the same handler, so behaviour is identical locally and in production.
+// The local dev server (scripts/serve.mjs) calls the same handler, so behaviour is identical locally and in production.
 import { send, HttpError, requestUrl } from '../lib/http.js';
 import * as pub from '../lib/routes/public.js';
 import * as admin from '../lib/routes/admin.js';

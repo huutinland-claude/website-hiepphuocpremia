@@ -3,11 +3,12 @@ import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import handler from './api/router.js';
-import { COMMON, SITE_CSP, ADMIN_CSP } from './lib/headers.js';
-import { ensureBootstrapAdmin } from './lib/auth.js';
+import handler from '../api/router.js';
+import { COMMON, SITE_CSP, ADMIN_CSP } from '../lib/headers.js';
+import { ensureBootstrapAdmin } from '../lib/auth.js';
 
-const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), 'dist');
+// Lives in scripts/ (not the project root) so Vercel does not pick it up as a server entrypoint.
+const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'dist');
 const PORT = Number(process.env.PORT || 3000);
 const TYPES = {
   '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8',

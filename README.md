@@ -72,7 +72,7 @@ landing-page/
 │  └─ assets/{css,js,img}
 ├─ scripts/build.mjs        # chèn SITE_URL vào canonical / OG / sitemap
 ├─ scripts/create-admin.mjs
-├─ server.mjs               # server local / VPS
+├─ scripts/serve.mjs        # server local / VPS (không đặt ở thư mục gốc để Vercel không nhận nhầm là entrypoint)
 ├─ tests/                   # node:test
 ├─ docs/                    # hướng dẫn chi tiết
 └─ vercel.json

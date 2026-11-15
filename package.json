@@ -9,8 +9,8 @@
   },
   "scripts": {
     "build": "node scripts/build.mjs",
-    "dev": "node scripts/build.mjs && node --env-file-if-exists=.env server.mjs",
-    "start": "node --env-file-if-exists=.env server.mjs",
+    "dev": "node scripts/build.mjs && node --env-file-if-exists=.env scripts/serve.mjs",
+    "start": "node --env-file-if-exists=.env scripts/serve.mjs",
     "create-admin": "node --env-file-if-exists=.env scripts/create-admin.mjs",
     "test": "node --env-file-if-exists=.env --test tests/"
   },
